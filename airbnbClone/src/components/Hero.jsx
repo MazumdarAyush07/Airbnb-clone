@@ -1,8 +1,24 @@
 import React from "react";
 import { ReactDOM } from "react";
+import heroImage from "../assets/heroImage.png";
 
 function Navbar() {
-  return <h1>This will be the Hero component</h1>;
+  return (
+    <section>
+      <div className="flex items-center justify-center p-14">
+        <img src={heroImage} alt="" className="h-60 md:h-80" />
+      </div>
+      <div className="flex flex-col items-start p-14">
+        <h1 className="font-serif text-3xl font-semibold leading-10">
+          Online Experiences
+        </h1>
+        <p className="text-gray-800 font-serif text-base font-light leading-4">
+          Join unique interactive activities led by one-of-a-kind hosts—all
+          without leaving home.
+        </p>
+      </div>
+    </section>
+  );
 }
 
 export default Navbar;
