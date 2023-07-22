@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactDOM } from "react";
-import airbnb from "../assets/airbnb.png";
+import airbnb from "../../public/assets/airbnb.png";
 
 function Navbar() {
   return (
