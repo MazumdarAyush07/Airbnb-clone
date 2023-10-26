@@ -21,11 +21,9 @@ function Card(props) {
       <div className="flex flex-col">
         <div className="flex items-center">
           <img src={Star} alt="" className="h-4" />
-          <span className="text-gray-800">{props.item.stats.rating}</span>
-          <span className="text-gray-800">
-            ({props.item.stats.reviewCount})
-          </span>
-          <span className="text-gray-800">{props.item.location}</span>
+          <span className="">{props.item.stats.rating}</span>
+          <span className="">({props.item.stats.reviewCount})</span>
+          <span className="">{props.item.location}</span>
         </div>
         <p className="flex items-start">{props.item.title}</p>
         <p className="flex items-start">

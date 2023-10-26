@@ -12,7 +12,7 @@ function Navbar() {
         <h1 className="font-serif text-3xl font-semibold leading-10">
           Online Experiences
         </h1>
-        <p className="text-gray-800 font-serif text-base font-light leading-4">
+        <p className="font-serif text-base font-light leading-4">
           Join unique interactive activities led by one-of-a-kind hosts—all
           without leaving home.
         </p>
